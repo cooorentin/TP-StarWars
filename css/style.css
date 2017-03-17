@@ -1,0 +1,30 @@
+body {
+  background-image: url(../img/star-wars-bg.jpg);
+  text-align: center;
+  color: yellow;
+  font-family: Verdana;
+}
+
+h1,h2{
+  text-align: center;
+}
+div {
+    /*border: solid black 1px;*/
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1em;
+}
+#authors,#quote{
+  border:solid yellow 1px;
+}
+.selected {
+    color:blue;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
